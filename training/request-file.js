@@ -9,5 +9,6 @@ const server = http.createServer()
 server.on('request', (req, res) => {
   res.end('Welcome')
 })
+console.log(server);
 
 server.listen(5000)
